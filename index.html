@@ -35,9 +35,16 @@
             ><i class="fas fa-envelope-square"></i
           ></a>
         </div>
-        <a class="p-section"><i id="hamburger" class="fas fa-bars"></i></a>
+        <div class="menu-container">
+          <ul class="menu">
+            <a href="#landing"><li class="menu-item hidden">Home</li></a>
+            <a href="#about-me"><li class="menu-item hidden">About Me</li></a>
+            <a href="#projects"><li class="menu-item hidden">Projects</li></a>
+          </ul>
+          <a class="p-section"><i id="hamburger" class="fas fa-bars"></i></a>
+        </div>
       </nav>
-      <section class="landing" id="about-me">
+      <section class="landing" id="landing">
         <div class="img">
           <img
             src="https://avatars.githubusercontent.com/u/67403469?s=460&u=b12f1dd6df5b8554ca0f3fea269b474dfc98dc14&v=4"
@@ -55,70 +62,95 @@
         </div>
       </section>
     </div>
-    <div class="about-me">
+    <div class="about-me" id="about-me">
       <h2 class="section-title">About Me</h2>
       <p class="description">
         Before starting my path as a developer, I studied to be an Accountant
-        for 4 years. After some time, I decided to follow my ambitions
-        adipisicing taken some free development courses, like on FreeCodeCamp
-        and TheOdinProject. After that, I knew that this was what I wanted to do
-        and started the Software Development Undergraduate @ UADE. Since then, I
-        am constantly learning new technologies. I've completed the Front-End
-        Development course @ CourseIT, where I met some amazing people and learn
-        HTML5, CSS3 and React. Also, I've learned Python in the university and
-        worked with Flask and Node.js for some personal projects.
+        for 4 years. After some time, I decided to follow my ambitions and I
+        took some free development courses on
+        <a href="https://wwww.freecodecamp.org/" style="font-weight: bold"
+          >FreeCodeCamp</a
+        >
+        and
+        <a href="https://www.theodinproject.com/" style="font-weight: bold"
+          >TheOdinProject</a
+        >. After that, I knew that this was what I wanted to do and started the
+        Software Development Undergraduate @ UADE. Since then, I am constantly
+        learning new technologies. I've completed the Front-End Development
+        course @ CourseIT, where I met some amazing people and learn HTML5, CSS3
+        and React. Also, I've learned Python in the university and worked with
+        Flask and Node.js for some personal projects.
       </p>
     </div>
-    <div class="projects-container">
+    <div class="projects-container" id="projects">
       <h2 class="section-title">Projects</h2>
       <section class="projects">
         <div class="project">
-          <img src="#" alt="project-img" />
-          <h3 class="project-title">Project #1</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, debitis?
-          </p>
+          <img src="./assets/courflix.PNG" class="project-image" alt="project-img" />
+          <div class="project-info">
+            <h3 class="project-title">Courflix</h3>
+            <p class="project-description">
+              The final project from CourseIT was building a Netflix-like streaming platform using React.js
+            </p>
+            <br>
+            <p>Stack used: React.js, SCSS</p>
+            <p>Libraries: react-router-dom, react-slick</p>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            class="project-image"
+            src="./assets/course-search.png"
+            alt="course search"
+          />
+          <div class="project-info">
+            <h3 class="project-title">Course Search</h3>
+            <p class="project-description">
+              A simple course grid with a search bar in real time, imitating the course filter from CourseIT.
+            </p>
+            <br>
+            <p>Stack used: React+SCSS</p>
+          </div>
         </div>
         <div class="project">
           <img src="#" alt="project-img" />
-          <h3 class="project-title">Project #1</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, debitis?
-          </p>
+          <div class="project-info">
+            <h3 class="project-title">Project #1</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, debitis?
+            </p>
+          </div>
         </div>
         <div class="project">
           <img src="#" alt="project-img" />
-          <h3 class="project-title">Project #1</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, debitis?
-          </p>
+          <div class="project-info">
+            <h3 class="project-title">Project #1</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, debitis?
+            </p>
+          </div>
         </div>
         <div class="project">
           <img src="#" alt="project-img" />
-          <h3 class="project-title">Project #1</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, debitis?
-          </p>
+          <div class="project-info">
+            <h3 class="project-title">Project #1</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, debitis?
+            </p>
+          </div>
         </div>
         <div class="project">
           <img src="#" alt="project-img" />
-          <h3 class="project-title">Project #1</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, debitis?
-          </p>
-        </div>
-        <div class="project">
-          <img src="#" alt="project-img" />
-          <h3 class="project-title">Project #1</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, debitis?
-          </p>
+          <div class="project-info">
+            <h3 class="project-title">Project #1</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, debitis?
+            </p>
+          </div>
         </div>
       </section>
     </div>
