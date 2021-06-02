@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100vw;
   max-width: 100%;
 }
@@ -108,9 +109,6 @@ a {
   width: 360px;
 }
 
-.landing .img {
-}
-
 .landing .myself,
 .landing img {
   margin: 0 20px;
@@ -142,7 +140,7 @@ a {
   font-size: 1.4rem;
   font-weight: 300;
   text-align: justify;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .section-title {
@@ -168,11 +166,12 @@ a {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 40px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-image {
   width: 100%;
-  min-height: 200px;
+  height: 200px;
   margin: 0;
   padding: 0;
   border-radius: inherit;
@@ -184,9 +183,29 @@ a {
   padding: 10px;
 }
 .project-title {
-  font-weight: 800;
+  font-weight: bold;
+  font-size: 1.2rem;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.site-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border: inherit;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.site-container button {
+  border-radius: 10px;
+  border: none;
+  background-color: #c4cacf;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .footer {
